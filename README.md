@@ -16,13 +16,15 @@
 	* Extract it to some directory, e.g., c:\utils\chromedriver
 	* Now go put c:\utils\chromedriver in the PATH ('Windows' start : edit environment variables for your account : edit the 'Path' variable and append that directory to it)
 	* From command line or terminal issue `chromedriver --version` and verify no errors return.
+	* Update the line of code to be @b=Watir::Browser.new :chrome
 
-## Use Phantomjs instead of FireFox ()
+## Use Phantomjs instead of FireFox
 * If you want to use phantomjs for the watir webdriver, you need to download the files and put them in your PATH.
 	* [Download Phantomjs](http://phantomjs.org/download.html) (choose the appropriate version)
 	* Extract it to some directory, e.g., c:\bin\phantomjs\
 	* Now go put c:\bin\phantomjs\ in the PATH ('Windows' start : edit environment variables for your account : edit the 'Path' variable and append that directory to it)
 	* From command line or terminal issue `phantomjs --version` and verify no errors return.
+	* Update the line of code to be @b=Watir::Browser.new :phantomjs
 
 
 
